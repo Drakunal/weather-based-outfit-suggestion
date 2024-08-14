@@ -6,7 +6,7 @@ load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
 BASE_URL = os.getenv('BASE_URL')
-CITY = os.getenv('CITY')
+CITY = input("Enter the city name:")
 
 def get_weather():
     params = {
