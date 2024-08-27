@@ -2,7 +2,7 @@
 import json
 
 def load_outfits():
-    with open('../data/outfit_options.json', 'r') as file:
+    with open('./data/outfit_options.json', 'r') as file:
         return json.load(file)
 
 def recommend_outfit(temp, weather_desc):
